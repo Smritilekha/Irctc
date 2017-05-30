@@ -75,7 +75,7 @@ public class TestBase {
 	}
 	public void closeBrowser()
 	{
-		driver.quit();
+		driver.close();
 		System.out.println("Closed Browser");
 	}
 	
